@@ -1,22 +1,22 @@
 <template>
   <div id="app" class="text-center cover-container d-flex h-100 p-3 mx-auto flex-column">
-    <vue-header></vue-header>
-    <vue-main></vue-main>
-    <vue-footer></vue-footer>
+    <app-header></app-header>
+    <app-main></app-main>
+    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
-import VueHeader from './components/VueHeader.vue';
-import VueMain from './components/VueMain.vue';
-import VueFooter from './components/VueFooter.vue';
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
   name: 'App',
   components: {
-    VueHeader,
-    VueMain,
-    VueFooter,
+    AppHeader,
+    AppMain,
+    AppFooter,
   },
 };
 </script>

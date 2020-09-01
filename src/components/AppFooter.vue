@@ -8,10 +8,10 @@
 
 <script>
 export default {
-  name: "VueFooter",
+  name: 'AppFooter',
   data() {
     return {
-      email: "amoghmadaan@gmail.com",
+      email: 'amoghmadaan@gmail.com',
     };
   },
 };

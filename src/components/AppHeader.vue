@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: 'VueHeader',
+  name: 'AppHeader',
   data() {
     return {
       name: 'Amogh Madan',
