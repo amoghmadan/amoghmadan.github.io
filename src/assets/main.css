@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-screen: 243 244 246;
+    --color-content: 17 24 39;
+    --color-action: 153 101 21;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-screen: 17 24 39;
+      --color-content: 243 244 246;
+      --color-action: 255 215 0;
+    }
+  }
+
+  body {
+    background: rgb(var(--color-screen));
+    color: rgb(var(--color-content));
+  }
+
+  svg path {
+    fill: rgb(var(--color-content));
+  }
+
+  svg:hover path {
+    fill: rgb(var(--color-action));
+  }
+}
