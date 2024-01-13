@@ -64,13 +64,14 @@ const navigation = computed(() => {
       </div>
     </div>
 
-    <DisclosurePanel class="sm:hidden">
+    <DisclosurePanel class="sm:hidden" v-slot="{ close }">
       <div class="space-y-1 px-2 pb-3 pt-2">
         <DisclosureButton
           v-for="item in navigation"
           :key="item.name"
           :as="RouterLink"
           :to="item.href"
+          @click="close()"
           :class="[
             item.current
               ? 'bg-action text-screen'
