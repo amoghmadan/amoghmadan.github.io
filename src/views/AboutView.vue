@@ -22,7 +22,7 @@ const articles = [
     <div class="flex items-center justify-center py-2">
       Hello! I'm Amogh Madan, a seasoned software engineer with over
       {{ new Date().getFullYear() - 2018 }}+ years of hands-on experience in the dynamic realm of
-      backend development. My passion lies in crafting robust and scalale solutions that power the
+      backend development. My passion lies in crafting robust and scalable solutions that power the
       digital world. I embarked on my software engineering journey 2018, and since then, I have
       immersed myself in the intricacies of backend development. From designing efficient databases
       to implementing complex algorithms, I thrive in the challenges that come with building the
