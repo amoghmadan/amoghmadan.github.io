@@ -2,17 +2,18 @@
 import { computed } from 'vue'
 
 const skills = computed(() => [
-  { name: 'Python', projects: 14, years: new Date().getFullYear() - 2018, rating: 5 },
-  { name: 'MySQL', projects: 14, years: new Date().getFullYear() - 2018, rating: 4 },
-  { name: 'Django', projects: 11, years: new Date().getFullYear() - 2019, rating: 5 },
+  { name: 'Python', projects: 15, years: new Date().getFullYear() - 2018, rating: 5 },
+  { name: 'MySQL', projects: 15, years: new Date().getFullYear() - 2018, rating: 4 },
+  { name: 'Django', projects: 12, years: new Date().getFullYear() - 2019, rating: 5 },
   { name: 'Flask', projects: 1, years: new Date().getFullYear() - 2023, rating: 5 },
+  { name: 'FastAPI', projects: 1, years: new Date().getFullYear() - 2024, rating: 5 },
   { name: 'Node', projects: 1, years: new Date().getFullYear() - 2018, rating: 3 },
   { name: 'Express', projects: 1, years: new Date().getFullYear() - 2018, rating: 3 },
   { name: 'React', projects: 1, years: new Date().getFullYear() - 2018, rating: 2 },
   { name: 'Vue', projects: 1, years: new Date().getFullYear() - 2018, rating: 1 },
   { name: 'MongoDB', projects: 1, years: new Date().getFullYear() - 2023, rating: 2 },
-  { name: 'NGINX', projects: 6, years: new Date().getFullYear() - 2020, rating: 3 },
-  { name: 'Docker', projects: 4, years: new Date().getFullYear() - 2019, rating: 3 }
+  { name: 'NGINX', projects: 7, years: new Date().getFullYear() - 2020, rating: 3 },
+  { name: 'Docker', projects: 5, years: new Date().getFullYear() - 2019, rating: 3 }
 ])
 </script>
 
