@@ -1,11 +1,19 @@
 <script setup>
 const experience = [
   {
+    organization: 'One Impression',
+    href: 'https://oneimpression.io/',
+    role: 'Senior Backend Engineer',
+    from: 'JUN 2024',
+    to: 'PRESENT',
+    tech: ['Python', 'Django', 'FastAPI', 'React', 'Docker', 'NGINX']
+  },
+  {
     organization: 'Tech Mahindra',
     href: 'https://www.techmahindra.com',
     role: 'Senior Software Engineer',
     from: 'SEP 2023',
-    to: 'PRESENT',
+    to: 'JUN 2024',
     tech: ['Python', 'Django', 'React', 'Docker']
   },
   {
